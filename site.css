@@ -1,0 +1,391 @@
+*{
+    font-family: 'Playfair Display', serif;
+}
+.navbar{
+    background-color: white; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: .1rem;
+    position: fixed; 
+    top: 0; left: 0; right: 0; 
+    z-index: 1000; 
+}
+.nav-items{
+    display: flex;
+}
+.navbar h1{
+    padding: 20px 18px;
+    text-decoration: none;
+    color: black;
+}
+.navbar h1:hover{
+    background-color: rgb(187, 186, 186);
+     color: white;
+}
+.nav-items li{
+    margin-right: 50px;
+    text-decoration: none;
+}
+.nav-items a{
+    text-align: initial;
+    padding: 20px 18px;
+    text-decoration: none;
+    color: black;
+}
+.navbar ul li a:hover{
+    background-color: rgb(187, 186, 186);
+     color: white;
+
+}
+.header{
+    max-width: 1600px;
+    height: 800px;
+}
+.header img{
+width: 1519px;
+height: 759px;
+}
+.catering{
+    display: flex;
+    padding-top: 60px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 50px;
+}
+.catering img{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 100%;
+    width: 501px;
+    height: 627px;
+ 
+}
+.catering h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-size: 40px;
+}
+.catering h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+.catering p{
+    display: block;
+    align-items: center;
+    padding-left: 60px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.second{
+    display: block;
+    align-items: center;
+    padding-left: 60px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: gray;
+}
+hr{
+    display: flex;
+    border: none;
+    border-top: 1px solid; 
+    margin: 10px 0;
+    color: gray;
+    width: 50%;
+    padding-top: 30px;
+    margin: 30px auto;
+}
+.menu{
+    display: flex;
+    padding-top: 30px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 50px;
+}
+.menu img{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 100%;
+    width: 501px;
+    height: 752px;
+    padding-left: 60px;
+ 
+}
+.menu h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-size: 40px;
+}
+.menu h2{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.menu p{
+    display: block;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-right: 60px;
+    padding-bottom: 30px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: gray;
+}
+hr{
+    display: flex;
+    border: none;
+    border-top: 1px solid; 
+    margin: 10px 0;
+    color: gray;
+    width: 50%;
+    padding-top: 30px;
+margin: 30px auto;
+}
+.contact h1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 200px;
+    font-size: 40px;
+}
+.contact p{
+    display: block;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 25px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.contact h2{
+    color: #607d8b;
+    font-size: 18px;
+    display: block;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 200px;
+    padding-bottom: 25px;
+    font-weight: bold;
+
+}
+.info2{
+    display: block;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 25px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.form{
+    color: #607d8b;
+    font-size: 18px;
+    display: block;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 25px;
+    font-weight: bold;
+}
+
+input[type=text], select{
+    border: none;
+    width: 100%; 
+    padding: 12px; 
+    border-bottom: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 5px; 
+    margin-bottom: 17px; 
+    padding-top: 20px;
+  }
+  
+  input[type=datetime-local], select{
+    border: none;
+    width: 100%; 
+    padding: 12px; 
+    border-bottom: 1px solid #ccc; 
+    border-radius: 4px; 
+    margin-top: 5px; 
+    margin-bottom: 17px; 
+    padding-top: 20px;
+  }
+  
+  .submit {
+    background-color: rgb(182, 178, 178);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  .submit:hover {
+    background-color: gray;
+  }
+
+  @media (max-width: 768px) {
+    .nav-items li {
+        display: none;
+    }
+
+    .nav-title {
+        margin-bottom: 5px;
+    }
+    .header{
+        width: 500px;
+        height: 250px;
+    }
+
+
+    .header img {
+        width: 500px;
+        height: 250px;
+    }
+    .catering{
+        display: flex;
+        margin-top: 0px;
+        padding-top: 0px;
+        padding-left: 200px;
+        padding-right: 200px;
+        padding-bottom: 50px;
+    }
+
+    .catering img{
+        display: none;
+    }
+    .catering h1{
+        font-size: 25px;
+        justify-content: flex-start;
+        padding-left: 30px
+    }
+    .catering h2{
+        font-size: 17px;
+        justify-content: flex-start;
+        padding-left: 30px
+    }
+    .catering p{
+        font-size: 16px;
+        justify-content: flex-start;
+        padding-left: 30px;
+    }
+
+    .catering{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .menu {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        text-align: center;
+        padding: 0;
+    }
+    .menu img{
+        width: 352px;
+        height: 528px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        padding-left: 0px;
+    }
+    .menu h1{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding-top: 20px;
+        padding-bottom: 50px;
+        font-size: 40px;
+        padding-left: 30px;
+    }
+    .menu h2{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding-bottom: 10px;
+        font-size: 20px;
+        padding-left: 30px;
+    }
+    .menu p{
+        text-align: left;
+        margin-left: 30px;
+        padding-left: 0px;
+        padding-bottom: 30px;
+        font-size: 16px;
+        line-height: 1.5;
+        color: gray;
+    }
+    .contact h1{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding-top: 20px;
+        padding-bottom: 50px;
+        padding-left: 30px;
+        font-size: 40px;
+    }
+    .contact p{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding-left: 30px;
+        padding-right: 0px;
+        padding-bottom: 25px;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    .contact h2{
+        color: #607d8b;
+        font-size: 18px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding-left: 30px;
+        padding-bottom: 25px;
+        font-weight: bold;
+    
+    }
+    .info2{
+        display: block;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding-left: 200px;
+        padding-right: 200px;
+        padding-bottom: 25px;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    .form{
+        color: #607d8b;
+        font-size: 18px;
+        display: block;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding-left: 30px;
+        padding-right: 0px;
+        padding-bottom: 25px;
+        font-weight: bold;
+    }
+   
+}
